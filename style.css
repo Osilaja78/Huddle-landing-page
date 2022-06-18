@@ -219,6 +219,18 @@ nav button{
     width: 20px;
 }
 
+.f-5{
+    color: white;
+    text-align: right;
+    background-color: hsl(192, 100%, 9%);
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.f-5 small{
+    margin-right: 50px;
+}
+
 .copy{
     color: white;
     background-color: hsl(192, 100%, 9%);
@@ -264,157 +276,20 @@ nav button{
     .section-3 img{
         width: 250px;
     }
-}
 
-@media screen and (max-width: 375x) {
-    .hero{
-        background-image: url("images/bg-hero-mobile.svg");
-        background-color: hsl(193, 100%, 96%);
-        width: 100%;
-        height: 100vh;
-    }
-
-    .hero-content{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        margin: auto;
-        margin-top: 50px;
-        justify-content: space-evenly;
-    }
-
-    .hero-content img{
-        width: 300px;
-    }
-
-    .hero-left{
-        width: 80%;
-    }
-
-    .section-1{
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-        box-shadow: 0 2px 4px 0 rgba(160, 157, 157, 0.534), 0 3px 10px 0 rgba(158, 157, 157, 0.39);
-        border-radius: 20px;
-        margin-top: 30px;
-        padding: 40px;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .left-section-1{
-        width: 100%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-
-    .section-1 img{
-        width: 150px;
-    }
-
-    .section-2{
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-        box-shadow: 0 2px 4px 0 rgba(160, 157, 157, 0.534), 0 3px 10px 0 rgba(158, 157, 157, 0.39);
-        border-radius: 20px;
-        margin-top: 30px;
-        padding: 40px;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .left-section-2{
-        width: 100%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-
-    .section-2 img{
-        width: 150px;
-    }
-
-    .section-3{
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        width: 80%;
-        margin: auto;
-        box-shadow: 0 2px 4px 0 rgba(160, 157, 157, 0.534), 0 3px 10px 0 rgba(158, 157, 157, 0.39);
-        border-radius: 20px;
-        margin-top: 30px;
-        padding: 40px;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .left-section-3{
-        width: 100%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-
-    .section-3 img{
-        width: 150px;
-    }
-
-    .section-4{
-        width: 80%;
-        margin: auto;
-        box-shadow: 0 2px 4px 0 rgba(49, 49, 49, 0.534), 0 3px 10px 0 rgba(94, 94, 94, 0.39);
-        border-radius: 20px;
-        margin-top: 30px;
-        padding: 40px;
-        text-align: center;
-        position: relative;
-        background-color: white;
-        margin-bottom: -80px;
-    }
-
-    .section-4 button{
-        padding: 20px;
-        background-color: hsl(322, 100%, 66%);
-        border: none;
-        border-radius: 30px;
-        width: 80%;
-        margin-top: 30px;
-    }
-
-    .logo{
-        width: 100px;
-    }
-
-    nav button{
-        width: 30%;
-        background-color: white;
-        padding: 8px;
-    }
-
-    .footer{
+    .f-5{
+        color: white;
+        text-align: right;
+        background-color: hsl(192, 100%, 9%);
         padding: 10px;
-        padding-top: 120px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .f-2{
-        margin-top: 40px;
-    }
-
-    .f-3{
-        margin-top: 40px;
-    }
-
-    .f-4 img{
-        margin-top: 40px;
-        display: flex;
+    .f-5 small{
+        margin-right: 40px;
     }
 }
+
 
 @media screen and (max-width: 500px) {
     .hero{
@@ -563,5 +438,201 @@ nav button{
     .f-4 img{
         margin-top: 40px;
         display: flex;
+    }
+
+    .f-5{
+        color: white;
+        text-align: right;
+        background-color: hsl(192, 100%, 9%);
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero{
+        background-image: url("images/bg-hero-mobile.svg");
+        background-color: hsl(193, 100%, 96%)ack;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .hero-content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+
+    .hero-content img{
+        width: 300px;
+    }
+
+    .hero-left{
+        width: 80%;
+    }
+
+    .section-1{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        box-shadow: 0 2px 4px 0 rgba(160, 157, 157, 0.534), 0 3px 10px 0 rgba(158, 157, 157, 0.39);
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 40px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .left-section-1{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .section-1 img{
+        width: 150px;
+    }
+
+    .section-2{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        box-shadow: 0 2px 4px 0 rgba(160, 157, 157, 0.534), 0 3px 10px 0 rgba(158, 157, 157, 0.39);
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 40px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .left-section-2{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .section-2 img{
+        width: 150px;
+    }
+
+    .section-3{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        box-shadow: 0 2px 4px 0 rgba(160, 157, 157, 0.534), 0 3px 10px 0 rgba(158, 157, 157, 0.39);
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 40px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .left-section-3{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .section-3 img{
+        width: 150px;
+    }
+
+    .section-4{
+        width: 80%;
+        margin: auto;
+        box-shadow: 0 2px 4px 0 rgba(49, 49, 49, 0.534), 0 3px 10px 0 rgba(94, 94, 94, 0.39);
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 40px;
+        text-align: center;
+        position: relative;
+        background-color: white;
+        margin-bottom: -80px;
+    }
+
+    .section-4 button{
+        padding: 20px;
+        background-color: hsl(322, 100%, 66%);
+        border: none;
+        border-radius: 30px;
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    nav button{
+        width: 30%;
+        background-color: white;
+        padding: 8px;
+    }
+
+    .footer{
+        padding: 10px;
+        padding-top: 120px;
+        display: grid;
+        grid-template-areas: 
+        'a a a'
+        'b b b'
+        'c c c'
+        'd d d'
+        'e e e'
+        ;
+    }
+
+    .f-1{
+        grid-area: a;
+        width: 90%;
+        margin: auto;
+    }
+
+    .f-2{
+        margin-top: 20px;
+        grid-area: b;
+        width: 80%;
+        margin: auto;
+    }
+
+    .f-3{
+        margin-top: 20px;
+        grid-area: c;
+        width: 80%;
+        margin: auto;
+    }
+
+    .f-4{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        grid-area: d;
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .f-5{
+        grid-area: e;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        background-color: hsl(192, 100%, 9%);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .f-5 small{
+        margin-right: 0;
     }
 }
